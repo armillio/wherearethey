@@ -8,13 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		47E6D0282150A9DA00AE763C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0272150A9DA00AE763C /* AppDelegate.swift */; };
-		47E6D02A2150A9DA00AE763C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0292150A9DA00AE763C /* ViewController.swift */; };
-		47E6D02D2150A9DA00AE763C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D02B2150A9DA00AE763C /* Main.storyboard */; };
 		47E6D0302150A9DA00AE763C /* wherearethey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D02E2150A9DA00AE763C /* wherearethey.xcdatamodeld */; };
 		47E6D0322150A9DC00AE763C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D0312150A9DC00AE763C /* Assets.xcassets */; };
 		47E6D0352150A9DC00AE763C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D0332150A9DC00AE763C /* LaunchScreen.storyboard */; };
 		47E6D0402150A9DC00AE763C /* wherearetheyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D03F2150A9DC00AE763C /* wherearetheyTests.swift */; };
 		47E6D04B2150A9DD00AE763C /* wherearetheyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D04A2150A9DD00AE763C /* wherearetheyUITests.swift */; };
+		47E6D0902150AA8100AE763C /* ConfigurationInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D05D2150AA8100AE763C /* ConfigurationInteractorManager.swift */; };
+		47E6D0912150AA8100AE763C /* ConfigurationDefaultInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D05E2150AA8100AE763C /* ConfigurationDefaultInteractorManager.swift */; };
+		47E6D0922150AA8100AE763C /* ConfigurationDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0602150AA8100AE763C /* ConfigurationDefaultPresenter.swift */; };
+		47E6D0932150AA8100AE763C /* ConfigurationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0612150AA8100AE763C /* ConfigurationPresenter.swift */; };
+		47E6D0942150AA8100AE763C /* ConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D0632150AA8100AE763C /* ConfigurationViewController.xib */; };
+		47E6D0952150AA8100AE763C /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0642150AA8100AE763C /* ConfigurationViewController.swift */; };
+		47E6D0962150AA8100AE763C /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0652150AA8100AE763C /* ConfigurationView.swift */; };
+		47E6D0972150AA8100AE763C /* ConfigurationDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0672150AA8100AE763C /* ConfigurationDefaultBuilder.swift */; };
+		47E6D0982150AA8100AE763C /* ConfigurationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0682150AA8100AE763C /* ConfigurationBuilder.swift */; };
+		47E6D0992150AA8100AE763C /* ConfigurationDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D06A2150AA8100AE763C /* ConfigurationDefaultRouter.swift */; };
+		47E6D09A2150AA8100AE763C /* ConfigurationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D06B2150AA8100AE763C /* ConfigurationRouter.swift */; };
+		47E6D09B2150AA8100AE763C /* WordsInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D06F2150AA8100AE763C /* WordsInteractorManager.swift */; };
+		47E6D09C2150AA8100AE763C /* WordsDefaultInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0702150AA8100AE763C /* WordsDefaultInteractorManager.swift */; };
+		47E6D09D2150AA8100AE763C /* WordsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0722150AA8100AE763C /* WordsPresenter.swift */; };
+		47E6D09E2150AA8100AE763C /* WordsDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0732150AA8100AE763C /* WordsDefaultPresenter.swift */; };
+		47E6D09F2150AA8100AE763C /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0752150AA8100AE763C /* WordsView.swift */; };
+		47E6D0A02150AA8100AE763C /* WordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D0762150AA8100AE763C /* WordsViewController.xib */; };
+		47E6D0A12150AA8100AE763C /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0772150AA8100AE763C /* WordsViewController.swift */; };
+		47E6D0A22150AA8100AE763C /* WordsDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0792150AA8100AE763C /* WordsDefaultBuilder.swift */; };
+		47E6D0A32150AA8100AE763C /* WordsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D07A2150AA8100AE763C /* WordsBuilder.swift */; };
+		47E6D0A42150AA8100AE763C /* WordsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D07C2150AA8100AE763C /* WordsRouter.swift */; };
+		47E6D0A52150AA8100AE763C /* WordsDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D07D2150AA8100AE763C /* WordsDefaultRouter.swift */; };
+		47E6D0A62150AA8100AE763C /* PuzzleDefaultInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0812150AA8100AE763C /* PuzzleDefaultInteractorManager.swift */; };
+		47E6D0A72150AA8100AE763C /* PuzzleInteractorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0822150AA8100AE763C /* PuzzleInteractorManager.swift */; };
+		47E6D0A82150AA8100AE763C /* PuzzlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0842150AA8100AE763C /* PuzzlePresenter.swift */; };
+		47E6D0A92150AA8100AE763C /* PuzzleDefaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0852150AA8100AE763C /* PuzzleDefaultPresenter.swift */; };
+		47E6D0AA2150AA8100AE763C /* PuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6D0872150AA8100AE763C /* PuzzleViewController.xib */; };
+		47E6D0AB2150AA8100AE763C /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0882150AA8100AE763C /* PuzzleViewController.swift */; };
+		47E6D0AC2150AA8100AE763C /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0892150AA8100AE763C /* PuzzleView.swift */; };
+		47E6D0AD2150AA8100AE763C /* PuzzleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D08B2150AA8100AE763C /* PuzzleBuilder.swift */; };
+		47E6D0AE2150AA8100AE763C /* PuzzleDefaultBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D08C2150AA8100AE763C /* PuzzleDefaultBuilder.swift */; };
+		47E6D0AF2150AA8100AE763C /* PuzzleDefaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D08E2150AA8100AE763C /* PuzzleDefaultRouter.swift */; };
+		47E6D0B02150AA8100AE763C /* PuzzleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D08F2150AA8100AE763C /* PuzzleRouter.swift */; };
+		47E6D0B52150AAF800AE763C /* ApplicationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0B22150AAF800AE763C /* ApplicationConstants.swift */; };
+		47E6D0B62150AAF800AE763C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0B32150AAF800AE763C /* Container.swift */; };
+		47E6D0B72150AAF800AE763C /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0B42150AAF800AE763C /* Environments.swift */; };
+		47E6D0BD2150AD9700AE763C /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0BC2150AD9700AE763C /* BaseNavigationController.swift */; };
+		47E6D0BF2150AE1D00AE763C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6D0BE2150AE1D00AE763C /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +73,6 @@
 /* Begin PBXFileReference section */
 		47E6D0242150A9DA00AE763C /* wherearethey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wherearethey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6D0272150A9DA00AE763C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47E6D0292150A9DA00AE763C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47E6D02C2150A9DA00AE763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47E6D02F2150A9DA00AE763C /* wherearethey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wherearethey.xcdatamodel; sourceTree = "<group>"; };
 		47E6D0312150A9DC00AE763C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E6D0342150A9DC00AE763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +83,45 @@
 		47E6D0462150A9DC00AE763C /* wherearetheyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wherearetheyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6D04A2150A9DD00AE763C /* wherearetheyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wherearetheyUITests.swift; sourceTree = "<group>"; };
 		47E6D04C2150A9DD00AE763C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E6D05D2150AA8100AE763C /* ConfigurationInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D05E2150AA8100AE763C /* ConfigurationDefaultInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationDefaultInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D0602150AA8100AE763C /* ConfigurationDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationDefaultPresenter.swift; sourceTree = "<group>"; };
+		47E6D0612150AA8100AE763C /* ConfigurationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationPresenter.swift; sourceTree = "<group>"; };
+		47E6D0632150AA8100AE763C /* ConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationViewController.xib; sourceTree = "<group>"; };
+		47E6D0642150AA8100AE763C /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		47E6D0652150AA8100AE763C /* ConfigurationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
+		47E6D0672150AA8100AE763C /* ConfigurationDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationDefaultBuilder.swift; sourceTree = "<group>"; };
+		47E6D0682150AA8100AE763C /* ConfigurationBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationBuilder.swift; sourceTree = "<group>"; };
+		47E6D06A2150AA8100AE763C /* ConfigurationDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationDefaultRouter.swift; sourceTree = "<group>"; };
+		47E6D06B2150AA8100AE763C /* ConfigurationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationRouter.swift; sourceTree = "<group>"; };
+		47E6D06F2150AA8100AE763C /* WordsInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D0702150AA8100AE763C /* WordsDefaultInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsDefaultInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D0722150AA8100AE763C /* WordsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsPresenter.swift; sourceTree = "<group>"; };
+		47E6D0732150AA8100AE763C /* WordsDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsDefaultPresenter.swift; sourceTree = "<group>"; };
+		47E6D0752150AA8100AE763C /* WordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		47E6D0762150AA8100AE763C /* WordsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordsViewController.xib; sourceTree = "<group>"; };
+		47E6D0772150AA8100AE763C /* WordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		47E6D0792150AA8100AE763C /* WordsDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsDefaultBuilder.swift; sourceTree = "<group>"; };
+		47E6D07A2150AA8100AE763C /* WordsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsBuilder.swift; sourceTree = "<group>"; };
+		47E6D07C2150AA8100AE763C /* WordsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsRouter.swift; sourceTree = "<group>"; };
+		47E6D07D2150AA8100AE763C /* WordsDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsDefaultRouter.swift; sourceTree = "<group>"; };
+		47E6D0812150AA8100AE763C /* PuzzleDefaultInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDefaultInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D0822150AA8100AE763C /* PuzzleInteractorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleInteractorManager.swift; sourceTree = "<group>"; };
+		47E6D0842150AA8100AE763C /* PuzzlePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzlePresenter.swift; sourceTree = "<group>"; };
+		47E6D0852150AA8100AE763C /* PuzzleDefaultPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDefaultPresenter.swift; sourceTree = "<group>"; };
+		47E6D0872150AA8100AE763C /* PuzzleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuzzleViewController.xib; sourceTree = "<group>"; };
+		47E6D0882150AA8100AE763C /* PuzzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
+		47E6D0892150AA8100AE763C /* PuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		47E6D08B2150AA8100AE763C /* PuzzleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleBuilder.swift; sourceTree = "<group>"; };
+		47E6D08C2150AA8100AE763C /* PuzzleDefaultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDefaultBuilder.swift; sourceTree = "<group>"; };
+		47E6D08E2150AA8100AE763C /* PuzzleDefaultRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleDefaultRouter.swift; sourceTree = "<group>"; };
+		47E6D08F2150AA8100AE763C /* PuzzleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleRouter.swift; sourceTree = "<group>"; };
+		47E6D0B12150AABA00AE763C /* wherearethey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wherearethey.entitlements; sourceTree = "<group>"; };
+		47E6D0B22150AAF800AE763C /* ApplicationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConstants.swift; sourceTree = "<group>"; };
+		47E6D0B32150AAF800AE763C /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		47E6D0B42150AAF800AE763C /* Environments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environments.swift; sourceTree = "<group>"; };
+		47E6D0BC2150AD9700AE763C /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		47E6D0BE2150AE1D00AE763C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +173,16 @@
 			isa = PBXGroup;
 			children = (
 				47E6D0272150A9DA00AE763C /* AppDelegate.swift */,
-				47E6D0292150A9DA00AE763C /* ViewController.swift */,
-				47E6D02B2150A9DA00AE763C /* Main.storyboard */,
+				47E6D0B22150AAF800AE763C /* ApplicationConstants.swift */,
+				47E6D0B32150AAF800AE763C /* Container.swift */,
+				47E6D0B42150AAF800AE763C /* Environments.swift */,
+				47E6D0B12150AABA00AE763C /* wherearethey.entitlements */,
+				47E6D0BB2150AD8300AE763C /* Base */,
+				47E6D0B82150AB2700AE763C /* Providers */,
+				47E6D0582150AA1800AE763C /* UI */,
 				47E6D0312150A9DC00AE763C /* Assets.xcassets */,
 				47E6D0332150A9DC00AE763C /* LaunchScreen.storyboard */,
 				47E6D0362150A9DC00AE763C /* Info.plist */,
-				47E6D02E2150A9DA00AE763C /* wherearethey.xcdatamodeld */,
 			);
 			path = wherearethey;
 			sourceTree = "<group>";
@@ -126,6 +203,255 @@
 				47E6D04C2150A9DD00AE763C /* Info.plist */,
 			);
 			path = wherearetheyUITests;
+			sourceTree = "<group>";
+		};
+		47E6D0582150AA1800AE763C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0592150AA1D00AE763C /* Sections */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		47E6D0592150AA1D00AE763C /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D05A2150AA8100AE763C /* Configuration */,
+				47E6D07E2150AA8100AE763C /* Puzzle */,
+				47E6D06C2150AA8100AE763C /* Words */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		47E6D05A2150AA8100AE763C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D05B2150AA8100AE763C /* Core */,
+				47E6D0662150AA8100AE763C /* Builder */,
+				47E6D0692150AA8100AE763C /* Router */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		47E6D05B2150AA8100AE763C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D05C2150AA8100AE763C /* InteractorManager */,
+				47E6D05F2150AA8100AE763C /* Presenter */,
+				47E6D0622150AA8100AE763C /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47E6D05C2150AA8100AE763C /* InteractorManager */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D05D2150AA8100AE763C /* ConfigurationInteractorManager.swift */,
+				47E6D05E2150AA8100AE763C /* ConfigurationDefaultInteractorManager.swift */,
+			);
+			path = InteractorManager;
+			sourceTree = "<group>";
+		};
+		47E6D05F2150AA8100AE763C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0602150AA8100AE763C /* ConfigurationDefaultPresenter.swift */,
+				47E6D0612150AA8100AE763C /* ConfigurationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		47E6D0622150AA8100AE763C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0632150AA8100AE763C /* ConfigurationViewController.xib */,
+				47E6D0642150AA8100AE763C /* ConfigurationViewController.swift */,
+				47E6D0652150AA8100AE763C /* ConfigurationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47E6D0662150AA8100AE763C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0672150AA8100AE763C /* ConfigurationDefaultBuilder.swift */,
+				47E6D0682150AA8100AE763C /* ConfigurationBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		47E6D0692150AA8100AE763C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D06A2150AA8100AE763C /* ConfigurationDefaultRouter.swift */,
+				47E6D06B2150AA8100AE763C /* ConfigurationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		47E6D06C2150AA8100AE763C /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D06D2150AA8100AE763C /* Core */,
+				47E6D0782150AA8100AE763C /* Builder */,
+				47E6D07B2150AA8100AE763C /* Router */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		47E6D06D2150AA8100AE763C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D06E2150AA8100AE763C /* InteractorManager */,
+				47E6D0712150AA8100AE763C /* Presenter */,
+				47E6D0742150AA8100AE763C /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47E6D06E2150AA8100AE763C /* InteractorManager */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D06F2150AA8100AE763C /* WordsInteractorManager.swift */,
+				47E6D0702150AA8100AE763C /* WordsDefaultInteractorManager.swift */,
+			);
+			path = InteractorManager;
+			sourceTree = "<group>";
+		};
+		47E6D0712150AA8100AE763C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0722150AA8100AE763C /* WordsPresenter.swift */,
+				47E6D0732150AA8100AE763C /* WordsDefaultPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		47E6D0742150AA8100AE763C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0752150AA8100AE763C /* WordsView.swift */,
+				47E6D0762150AA8100AE763C /* WordsViewController.xib */,
+				47E6D0772150AA8100AE763C /* WordsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47E6D0782150AA8100AE763C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0792150AA8100AE763C /* WordsDefaultBuilder.swift */,
+				47E6D07A2150AA8100AE763C /* WordsBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		47E6D07B2150AA8100AE763C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D07C2150AA8100AE763C /* WordsRouter.swift */,
+				47E6D07D2150AA8100AE763C /* WordsDefaultRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		47E6D07E2150AA8100AE763C /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D07F2150AA8100AE763C /* Core */,
+				47E6D08A2150AA8100AE763C /* Builder */,
+				47E6D08D2150AA8100AE763C /* Router */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		47E6D07F2150AA8100AE763C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0802150AA8100AE763C /* InteractorManager */,
+				47E6D0832150AA8100AE763C /* Presenter */,
+				47E6D0862150AA8100AE763C /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47E6D0802150AA8100AE763C /* InteractorManager */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0812150AA8100AE763C /* PuzzleDefaultInteractorManager.swift */,
+				47E6D0822150AA8100AE763C /* PuzzleInteractorManager.swift */,
+			);
+			path = InteractorManager;
+			sourceTree = "<group>";
+		};
+		47E6D0832150AA8100AE763C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0842150AA8100AE763C /* PuzzlePresenter.swift */,
+				47E6D0852150AA8100AE763C /* PuzzleDefaultPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		47E6D0862150AA8100AE763C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0872150AA8100AE763C /* PuzzleViewController.xib */,
+				47E6D0882150AA8100AE763C /* PuzzleViewController.swift */,
+				47E6D0892150AA8100AE763C /* PuzzleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47E6D08A2150AA8100AE763C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D08B2150AA8100AE763C /* PuzzleBuilder.swift */,
+				47E6D08C2150AA8100AE763C /* PuzzleDefaultBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		47E6D08D2150AA8100AE763C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D08E2150AA8100AE763C /* PuzzleDefaultRouter.swift */,
+				47E6D08F2150AA8100AE763C /* PuzzleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		47E6D0B82150AB2700AE763C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0B92150AB3500AE763C /* Storage */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		47E6D0B92150AB3500AE763C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0BA2150AB4200AE763C /* CoreData */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		47E6D0BA2150AB4200AE763C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D02E2150A9DA00AE763C /* wherearethey.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		47E6D0BB2150AD8300AE763C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47E6D0BC2150AD9700AE763C /* BaseNavigationController.swift */,
+				47E6D0BE2150AE1D00AE763C /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +522,11 @@
 				TargetAttributes = {
 					47E6D0232150A9DA00AE763C = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					47E6D03A2150A9DC00AE763C = {
 						CreatedOnToolsVersion = 10.0;
@@ -233,8 +564,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E6D0352150A9DC00AE763C /* LaunchScreen.storyboard in Resources */,
+				47E6D0942150AA8100AE763C /* ConfigurationViewController.xib in Resources */,
+				47E6D0A02150AA8100AE763C /* WordsViewController.xib in Resources */,
+				47E6D0AA2150AA8100AE763C /* PuzzleViewController.xib in Resources */,
 				47E6D0322150A9DC00AE763C /* Assets.xcassets in Resources */,
-				47E6D02D2150A9DA00AE763C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +592,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E6D0AF2150AA8100AE763C /* PuzzleDefaultRouter.swift in Sources */,
+				47E6D0A12150AA8100AE763C /* WordsViewController.swift in Sources */,
+				47E6D0902150AA8100AE763C /* ConfigurationInteractorManager.swift in Sources */,
+				47E6D09A2150AA8100AE763C /* ConfigurationRouter.swift in Sources */,
+				47E6D0A62150AA8100AE763C /* PuzzleDefaultInteractorManager.swift in Sources */,
+				47E6D09E2150AA8100AE763C /* WordsDefaultPresenter.swift in Sources */,
+				47E6D0932150AA8100AE763C /* ConfigurationPresenter.swift in Sources */,
+				47E6D0912150AA8100AE763C /* ConfigurationDefaultInteractorManager.swift in Sources */,
+				47E6D09D2150AA8100AE763C /* WordsPresenter.swift in Sources */,
+				47E6D0A32150AA8100AE763C /* WordsBuilder.swift in Sources */,
+				47E6D09F2150AA8100AE763C /* WordsView.swift in Sources */,
+				47E6D0BF2150AE1D00AE763C /* BaseViewController.swift in Sources */,
+				47E6D0AB2150AA8100AE763C /* PuzzleViewController.swift in Sources */,
+				47E6D0A92150AA8100AE763C /* PuzzleDefaultPresenter.swift in Sources */,
 				47E6D0302150A9DA00AE763C /* wherearethey.xcdatamodeld in Sources */,
-				47E6D02A2150A9DA00AE763C /* ViewController.swift in Sources */,
+				47E6D0A52150AA8100AE763C /* WordsDefaultRouter.swift in Sources */,
+				47E6D0952150AA8100AE763C /* ConfigurationViewController.swift in Sources */,
+				47E6D09B2150AA8100AE763C /* WordsInteractorManager.swift in Sources */,
+				47E6D0A22150AA8100AE763C /* WordsDefaultBuilder.swift in Sources */,
+				47E6D0A82150AA8100AE763C /* PuzzlePresenter.swift in Sources */,
+				47E6D0962150AA8100AE763C /* ConfigurationView.swift in Sources */,
+				47E6D0A72150AA8100AE763C /* PuzzleInteractorManager.swift in Sources */,
+				47E6D0A42150AA8100AE763C /* WordsRouter.swift in Sources */,
+				47E6D0922150AA8100AE763C /* ConfigurationDefaultPresenter.swift in Sources */,
+				47E6D0972150AA8100AE763C /* ConfigurationDefaultBuilder.swift in Sources */,
+				47E6D0B02150AA8100AE763C /* PuzzleRouter.swift in Sources */,
+				47E6D0AE2150AA8100AE763C /* PuzzleDefaultBuilder.swift in Sources */,
+				47E6D09C2150AA8100AE763C /* WordsDefaultInteractorManager.swift in Sources */,
+				47E6D0AC2150AA8100AE763C /* PuzzleView.swift in Sources */,
+				47E6D0982150AA8100AE763C /* ConfigurationBuilder.swift in Sources */,
+				47E6D0B52150AAF800AE763C /* ApplicationConstants.swift in Sources */,
+				47E6D0AD2150AA8100AE763C /* PuzzleBuilder.swift in Sources */,
+				47E6D0992150AA8100AE763C /* ConfigurationDefaultRouter.swift in Sources */,
+				47E6D0BD2150AD9700AE763C /* BaseNavigationController.swift in Sources */,
 				47E6D0282150A9DA00AE763C /* AppDelegate.swift in Sources */,
+				47E6D0B72150AAF800AE763C /* Environments.swift in Sources */,
+				47E6D0B62150AAF800AE763C /* Container.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +664,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		47E6D02B2150A9DA00AE763C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47E6D02C2150A9DA00AE763C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47E6D0332150A9DC00AE763C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,9 +795,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wherearethey/wherearethey.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBA2T8UB2;
 				INFOPLIST_FILE = wherearethey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,9 +815,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wherearethey/wherearethey.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBA2T8UB2;
 				INFOPLIST_FILE = wherearethey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
